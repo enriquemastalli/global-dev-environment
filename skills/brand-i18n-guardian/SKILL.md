@@ -1,6 +1,6 @@
 ---
 name: brand-i18n-guardian
-description: Sistema de razonamiento para arquitectura multiidioma y coherencia de marca en aplicaciones. Úsame cuando diseñes, audites o modifiques cualquier superficie textual de una app: UI, notificaciones, errores, emails, metadatos, documentación de usuario. Aplica independientemente del stack tecnológico. Úsame también cuando agregues claves a archivos de idioma, definas convenciones de nomenclatura, o detectes riesgo de inconsistencia terminológica de marca.
+description: "Sistema de razonamiento para arquitectura multiidioma y coherencia de marca en aplicaciones. Úsame cuando diseñes, audites o modifiques cualquier superficie textual de una app: UI, notificaciones, errores, emails, metadatos, documentación de usuario. Aplica independientemente del stack tecnológico. Úsame también cuando agregues claves a archivos de idioma, definas convenciones de nomenclatura, o detectes riesgo de inconsistencia terminológica de marca."
 ---
 
 # Brand i18n Guardian
