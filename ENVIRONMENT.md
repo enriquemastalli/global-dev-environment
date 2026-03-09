@@ -2,7 +2,7 @@
 
 Este es el **Entorno Global de Desarrollo** — un sistema consistente y portable que aplica a **CUALQUIER proyecto**, sin importar el tipo, tecnología o equipo.
 
-No es específico de DOSA. Es una configuración universal que:
+No es específico de algún proyecto en particular. Es una configuración universal que:
 
 - ✅ Se instala en 30 segundos
 - ✅ Funciona en cualquier máquina
