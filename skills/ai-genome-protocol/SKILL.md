@@ -1,6 +1,6 @@
 ---
 name: ai-genome-protocol
-description: Úsame siempre que modifiques los prompts del sistema (Arquitecto, Evolucionador), manejes la API de Gemini o analices/escribas archivos XML.
+description: Úsame siempre que modifiques los prompts del sistema (Arquitecto, Evolucionador), manejes la API de Gemini o analices/escribas archivos XML. Prototipo para mantener el system prompt de agentes conversacionales.
 ---
 
 # Protocolo del Genoma y Guardarraíles de IA
