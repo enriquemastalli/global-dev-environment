@@ -2,8 +2,6 @@
 
 Sistema centralizado y universal que garantiza comportamiento consistente en TODO desarrollo, sin importar proyecto, tecnología o desarrollador.
 
-**No es específico de DOSA. Aplica a CUALQUIER proyecto.**
-
 ---
 
 ## 🎯 Propósito
