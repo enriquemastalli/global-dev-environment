@@ -1,0 +1,120 @@
+{
+  "name": "Global Development Environment",
+  "version": "1.0.0",
+  "description": "Entorno Universal de Desarrollo con 9 skills integrados y protocolo senior. Aplica a CUALQUIER proyecto.",
+  "author": "Development Team",
+  "license": "MIT",
+  "homepage": "https://github.com/org/global-dev-environment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/org/global-dev-environment.git"
+  },
+  "installation": {
+    "target_directory": "~/.opencode",
+    "bash_version_required": "4.0+",
+    "git_required": true,
+    "node_required": false,
+    "sudo_optional": true
+  },
+  "components": {
+    "configuration": [
+      "config.json",
+      "BEHAVIORAL_STANDARDS.md",
+      "TEAM_STANDARDS.md",
+      "DEVELOPMENT_STANDARDS.md"
+    ],
+    "documentation": ["README.md", "CHANGELOG.md", "INSTALL.md"],
+    "scripts": ["bin/validate-project.sh", "bin/auto-create-agents-md.sh"],
+    "skills": [
+      "zero-patch-policy",
+      "cognitive-responsibility",
+      "strict-typescript-contract",
+      "edge-performance-first",
+      "saas-security-enforcer",
+      "ui-state-guardian",
+      "brand-i18n-guardian",
+      "ai-genome-protocol",
+      "senior-development-protocol"
+    ]
+  },
+  "features": {
+    "intelligent_skill_loading": true,
+    "automatic_project_validation": true,
+    "behavioral_standards": true,
+    "error_handling_propagation": true,
+    "debugging_protocol": "scientific_method"
+  },
+  "system_requirements": {
+    "operating_systems": [
+      "macOS",
+      "Linux",
+      "WSL (Windows Subsystem for Linux)"
+    ],
+    "shell": "bash 4.0+",
+    "dependencies": ["git", "curl (para instalación remota, opcional)"],
+    "optional_dependencies": [
+      "node.js (para proyectos Node)",
+      "jq (para validación JSON mejorada)"
+    ]
+  },
+  "installation_methods": [
+    {
+      "name": "Instalación Remota (Recomendado)",
+      "command": "curl -fsSL https://raw.githubusercontent.com/org/dosa-environment/main/install.sh | bash",
+      "description": "Descarga e instala directamente desde GitHub"
+    },
+    {
+      "name": "Instalación Local",
+      "command": "bash install.sh",
+      "description": "Ejecuta el script desde una copia local clonada"
+    },
+    {
+      "name": "Instalación Manual",
+      "command": "cp -r .opencode ~/",
+      "description": "Copia manualmente el directorio .opencode"
+    }
+  ],
+  "post_installation": {
+    "validate_command": "~/.opencode/bin/validate-project.sh /ruta/al/proyecto",
+    "documentation": [
+      "Leer ~/.opencode/README.md",
+      "Leer ~/.opencode/BEHAVIORAL_STANDARDS.md",
+      "Leer ~/.opencode/TEAM_STANDARDS.md"
+    ],
+    "verify_skills": "ls ~/.opencode/skills/",
+    "create_agents_md": "~/.opencode/bin/auto-create-agents-md.sh /ruta/al/proyecto"
+  },
+  "compatibility": {
+    "claude_code_min_version": "1.0.0",
+    "test_projects": [
+      "Node.js API (Cloudflare Workers)",
+      "React Frontend",
+      "Fullstack Monorepo"
+    ]
+  },
+  "support": {
+    "documentation": "https://github.com/org/dosa-environment/wiki",
+    "issues": "https://github.com/org/dosa-environment/issues",
+    "discussions": "https://github.com/org/dosa-environment/discussions"
+  },
+  "changelog": {
+    "v1.0.0": {
+      "date": "2026-03-08",
+      "features": [
+        "Entorno global consistente",
+        "9 skills integrados",
+        "Protocolo senior-development-protocol",
+        "Validación automática de proyectos",
+        "Carga inteligente de skills",
+        "Installer portable"
+      ]
+    }
+  },
+  "metadata": {
+    "exportable": true,
+    "portable": true,
+    "team_installable": true,
+    "customizable": true,
+    "ci_cd_compatible": true
+  }
+}

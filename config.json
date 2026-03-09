@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "environment": "global-development",
+  "description": "Meta-configuración global del entorno de desarrollo DOSA",
+  "auto_load_on_session_start": ["senior-development-protocol"],
+  "intelligent_skill_loading": {
+    "enabled": true,
+    "notify_when_loading": true,
+    "description": "Carga inteligente de skills según contexto de la tarea",
+    "rules": [
+      {
+        "name": "Backend Development",
+        "description": "API Node, Cloudflare Workers, D1 Database",
+        "triggers": [
+          "*.ts (api/)",
+          "*.ts (routes/)",
+          "wrangler.toml",
+          "migrations/",
+          "D1",
+          "database"
+        ],
+        "skills": [
+          "edge-performance-first",
+          "saas-security-enforcer",
+          "strict-typescript-contract"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "description": "React, componentes, estado, CSS",
+        "triggers": ["*.tsx", "*.jsx", "React", "components/", "pages/", "CSS"],
+        "skills": [
+          "ui-state-guardian",
+          "brand-i18n-guardian",
+          "strict-typescript-contract"
+        ]
+      },
+      {
+        "name": "Code Quality & Architecture",
+        "description": "Cualquier edición de código, refactorización, bug fix",
+        "triggers": ["any file edit", "refactor", "bug fix", "modify existing"],
+        "skills": ["zero-patch-policy", "cognitive-responsibility"]
+      },
+      {
+        "name": "IA & Prompts",
+        "description": "Prompts del sistema, XML, API Gemini, genoma",
+        "triggers": [
+          "prompts",
+          "XML",
+          "Gemini",
+          "genoma",
+          "system instructions"
+        ],
+        "skills": ["ai-genome-protocol"]
+      }
+    ]
+  },
+  "project_validation": {
+    "required_files": ["AGENTS.md", ".git"],
+    "validate_on_entry": true,
+    "auto_create_missing_agents_md": true,
+    "agents_md_template_source": "~/.opencode/templates/_shared/AGENTS.md.template",
+    "description": "Validar que cada proyecto tiene estructura correcta"
+  },
+  "behavior_rules": {
+    "debugging": "always_scientific_method",
+    "error_handling": "always_propagate_complete_context",
+    "code_changes": "zero_band_aids_ever",
+    "checklist_pre_action": "mental_implicit",
+    "description": "Reglas de comportamiento global en TODA sesión"
+  },
+  "global_standards": {
+    "protocol": "senior-development-protocol",
+    "error_handling_architecture": "DEVELOPMENT_STANDARDS.md",
+    "behavioral_standards": "BEHAVIORAL_STANDARDS.md",
+    "team_standards": "TEAM_STANDARDS.md"
+  }
+}

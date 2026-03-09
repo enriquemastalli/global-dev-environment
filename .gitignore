@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Distribution
+*.tar.gz
+*.tar.gz.sha256
+dosa-environment_*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+.env.local
+/tmp/
+
+# Binary executables (platform-specific)
+bin/opencode
+bin/opencode.exe
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
