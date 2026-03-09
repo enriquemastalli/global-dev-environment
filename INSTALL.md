@@ -2,8 +2,6 @@
 
 Guía paso a paso para instalar el entorno universal en tu máquina.
 
-**Este entorno funciona para CUALQUIER tipo de proyecto, no solo DOSA.**
-
 ---
 
 ## 🚀 Instalación Rápida (Recomendado)
