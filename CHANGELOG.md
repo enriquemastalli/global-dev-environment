@@ -1,7 +1,5 @@
 # CHANGELOG — Global Development Environment
 
-**Entorno Universal para CUALQUIER Proyecto**
-
 ## v1.0 — 2026-03-08
 
 ### 🎉 Release Inicial
